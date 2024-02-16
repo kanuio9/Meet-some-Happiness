@@ -1,0 +1,40 @@
+div>h1 {
+    font-style: italic;
+    color: blueviolet;
+    background-color: peachpuff;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pet {
+    color: brown;
+}
+
+
+.dog {
+    border: 2px solid black;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-radius: 25px;
+}
+
+.pets {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+@media (max-width: 415px) {
+    .pets {
+        flex-wrap: wrap; 
+    }
+}
